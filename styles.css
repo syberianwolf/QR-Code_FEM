@@ -1,0 +1,46 @@
+﻿:root {
+    --White: hsl(0, 0%, 100%); /*.container background-Color*/
+    --Slate-300: hsl(212, 45%, 89%); /**Body background-Color*/
+    --Slate-500: hsl(216, 15%, 48%); /**p font Color*/
+    --Slate-900: hsl(218, 44%, 22%); /**h1 font Color*/
+}
+
+@font-face {
+    font-family: "Outfit";
+    src:"https://fonts.google.com/specimen/Outfit";
+}
+
+* {
+    border: 2px red solid;
+}
+html,body,.container{margin:0;}
+html, body {
+    height: 100%;
+}
+
+img, .container {
+    border-radius: 50px;
+}
+
+body {
+    background-color: var(--Slate-500);
+}
+
+.container {
+    width: 100%;
+    max-width: 576px;
+
+    padding: 25px 25px 10px 25px;
+    text-align: center;
+    background-color: var(--White);
+}
+
+
+p{
+    font-weight:400;
+    font-size:15px;
+    color:var(--Slate-500);
+}
+h1{font-weight:700;
+   color:var(--Slate-900);
+}
