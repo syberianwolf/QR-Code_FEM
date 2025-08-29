@@ -1,97 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
-
-    <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-
-            .attribution a {
-                color: hsl(228, 45%, 44%);
-            }
-
-
-
-
-        :root {
-            --White: hsl(0, 0%, 100%); /*.container background-Color*/
-            --Slate-300: hsl(212, 45%, 89%); /**Body background-Color*/
-            --Slate-500: hsl(216, 15%, 48%); /**p font Color*/
-            --Slate-900: hsl(218, 44%, 22%); /**h1 font Color*/
-        }
-
-     
-        * {
-            border: none;
-        }
-
-        html, body, .container {
-            margin: 0;
-        }
-
-        html, body {
-            height: 100%;
-        }
-
-        img, .container {
-            border-radius: 50px;
-        }
-
-        body {
-            background-color: var(--Slate-300);
-        }
-
-        .container {
-            width: 100%;
-            max-width: 90%;
-            padding: 1.56rem 1.56rem 0.265rem 1.56rem;
-            text-align: center;
-            margin: 0 auto;
-            background-color: var(--White);
-        }
-        img{
-            max-width:100%;
-            height:auto;
-        }
-
-        p, h1 {
-            font-family: 'Outfit',sans-serif;
-        
-        }
-
-        p {
-            font-weight: 400;
-            font-size: 15px;
-            color: var(--Slate-500);
-        }
-
-        h1 {
-            font-weight: 700;
-            color: var(--Slate-900);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
-        <div class="container">    
-        <img src="./images/image-qr-code.png" width="576" height="576"/>
-            <h1>  Improve your front-end skills by building projects</h1>
+<div class="page">
+	<div class="wrapper-text">
+		<img src="images/image-qr-code.png" alt="NFT QR-image" id="qr-image">
+		<h1>Improve your front-end skills by building projects</h1>
+		<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>	
+	</div>
 
-            <p>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </div>
-
-
-        <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Wolman Eduardo Navarro Sosa</a>.
-        </div>
+  	<div class="attribution">
+    	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    	Coded by <a href="#">Wolman Eduardo Navarro Sosa</a>.
+  	</div>
+</div>
 </body>
 </html>
